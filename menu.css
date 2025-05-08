@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: #d7e3f3; /* azul suave bonito */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 280px;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 460px; /* mais compacto */
+}
+
+.top-section {
+  text-align: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%; /* logo redonda */
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3971a3; /* azul mais marcante */
+  margin: 0;
+}
+
+.welcome {
+  font-size: 13px;
+  color: #5a92c4;
+  margin-top: 6px;
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #3971a3;
+  background-color: #eef4fc;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.menu a:hover {
+  background-color: #d0e4f8;
+  color: #1d4f7a;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
